@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="main_body">
+
+        <div class="pickedColor">
+            <form action="">
+                <label for="red">Red</label>
+                <input type="radio" name="color" checked onchange="change_picked_color('lightcoral')" id="red">
+                <label for="blue">Blue</label>
+                <input type="radio" name="color" onchange="change_picked_color('lightblue')" id="blue">
+                <label  for="green">Green</label>
+                <input  type="radio" name="color" onchange="change_picked_color('lightgreen')" id="green">
+            </form>
+        </div>
+        <br><br>
+        <div class="Color_grid">
+            <button class="Color_grid_item" onclick="change_color(this)" id="c1"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c2"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c3"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c4"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c5"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c6"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c7"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c8"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c9"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c10"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c11"></button>
+            <button class="Color_grid_item" onclick="change_color(this)" id="c12"></button>
+        </div>
+    </div>
+
+    <button id="reset" onclick="Reset()">reset</button>
+</body>
+
+</html>

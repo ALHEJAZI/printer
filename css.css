@@ -1,0 +1,73 @@
+body
+{
+  background-color: #fff6f6;
+}
+.main_body {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 50px;
+  font-weight: normal;
+}
+input[type="radio"] {
+  margin-right: 50px;
+}
+label {
+  display: inline-block;
+  background-color: #454545;
+  width: 50px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+label[for="red"] {
+  color: lightcoral;
+}
+label[for="blue"] {
+  color: lightblue;
+}
+label[for="green"] {
+  color: lightgreen;
+}
+
+/* Color_grid */
+.Color_grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  background-color: #454545;
+  margin: 20px auto;
+  width: max-content;
+  border-radius: 10px;
+}
+
+.Color_grid_item {
+  background-color: gold;
+  font-size: 20px;
+}
+
+#reset {
+  background-color: rgb(252, 248, 0);
+  font-size: 20px;
+  padding: 5px 10px;
+  border: #787878 2px inset;
+  margin-left: 50%;
+}
+
+#reset:hover {
+  background-color: #000;
+  color: antiquewhite;
+  border: antiquewhite 2px inset;
+}
+
+/* .pickedColor
+{
+  background-color: rgb(88, 26, 169);
+} */
